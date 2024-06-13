@@ -22,6 +22,19 @@ from langchain_cohere.chat_models import ChatCohere
 chat = ChatCohere(model="command-r-plus", temperature=0.3)
 ```
 
+
+```python
+Prompt
+agent_executor.invoke({
+    "input": "What is the latest quarterly revenue of Tesla and what recent events have influenced it?"
+})
+
+Output 
+ "Tesla's latest quarterly revenue was $21.30 billion for Q1 2024, marking a decrease from the $23.33 billion recorded in Q1 2023. This reduction can be attributed to a combination of factors, including the company's decision to decrease the prices of its vehicles by up to 20% in reaction to competition in the global market for electric vehicles and rising inflation rates.",
+
+Alongside with list of web citations
+```
+
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
 
