@@ -12,7 +12,10 @@ The `Agent_Analyst.ipynb` notebook demonstrates how to create a data analyst age
 
 ### Tools Used
 
-#### 1. Cohere's Command R+ Mode
+#### Notebook
+#### Cohere_api_key
+#### langchain
+#### TAVILY_API_KEY
 
 Cohere's Command R+ is a language model designed for retrieval-augmented generation tasks. It helps the agent generate accurate and contextually relevant responses by leveraging both pre-trained knowledge and external information retrieval.
 
@@ -26,16 +29,6 @@ os.environ['COHERE_API_KEY'] = "your_cohere_api_key_here"
 from langchain_cohere.chat_models import ChatCohere
 chat = ChatCohere(model="command-r-plus", temperature=0.3)
 ```
-
-## Requirements
-To run the notebook, you will need the following Python packages:
-
-
-# Notebook
-
-Cohere_api_key
-langchain
-TAVILY_API_KEY
 
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
