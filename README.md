@@ -5,9 +5,9 @@ Retrieval-Augmented Generation (RAG) is a technique that combines the strengths 
 ### Tools Used
 
 - Notebook
-- Cohere_api_key
+- Cohere command-r-plus
 - langchain
-- TAVILY_API_KEY
+- tavily
 
 Cohere's Command R+ is a language model designed for retrieval-augmented generation tasks. It helps the agent generate accurate and contextually relevant responses by leveraging both pre-trained knowledge and external information retrieval.
 
