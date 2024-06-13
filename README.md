@@ -25,3 +25,24 @@ os.environ['COHERE_API_KEY'] = "your_cohere_api_key_here"
 # Create the Cohere chat model
 from langchain_cohere.chat_models import ChatCohere
 chat = ChatCohere(model="command-r-plus", temperature=0.3)
+```
+
+## Requirements
+To run the notebook, you will need the following Python packages:
+
+
+# Notebook
+
+Cohere_api_key
+langchain
+TAVILY_API_KEY
+
+## Contributing
+If you would like to contribute to this project, please follow these steps:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a new Pull Request.
+
